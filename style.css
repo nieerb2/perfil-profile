@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --verde-primary: hsl();
+
+    --fonte-destaque: 'Inter', Arial, sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    
+    font-family: var(--fonte-destaque);
+    padding-bottom: 10px;
+    color: white;
+    min-height: 800px;
+}
+
+.card{
+    
+    max-width: 270px;
+    margin: auto;
+    background-color: hsl(0, 0%, 12%);
+    margin-top: 150px;
+    padding: 20px;
+    
+    border-radius: 7px;
+    text-align: center;
+}
+p{
+    color: white;
+    margin-bottom: 20px;
+    text-align: j;
+}
+.card a{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(56, 52, 52); ;
+    margin: 0px -9px 0x -9px;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    transition-duration: .5s;
+   
+    
+   
+    
+}
+.card a:visited{
+    color: white;
+    
+}
+.card li{
+    border-radius: 2px;
+    background-color:
+    padding: 0px;
+    margin: 10px;
+    transition-duration: .5s;
+    margin-bottom: 15px;
+}
+
+.location{
+    color: rgb(170, 247, 139);
+}
+.card > ul > li:hover{
+    background-color: rgba(0, 0, 3, 0.199);
+    color: black;
+}
+.card ul > li >a:hover{
+    color: rgb(170, 247, 139);
+    background-color: rgba(0, 0, 3, 0.199);
+  
+}
+.location::after{
+    content: '\1F1E7\1F1F7';
+ }
+
+ .photo{
+    max-width: 90px;
+    border-radius: 75px;
+ }
